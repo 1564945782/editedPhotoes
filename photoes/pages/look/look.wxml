@@ -1,0 +1,8 @@
+<view class='img'><image src='{{imgSrc}}'></image></view>
+<button bindtap='save'>保存</button>
+<view>历史编辑</view>
+<view class='history'>
+ 
+    <image  wx:for="{{historyImg}}" src='{{item}}'></image>
+  
+</view>

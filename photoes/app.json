@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/look/look"
+  ],"window": {
+    "navigationBarBackgroundColor": "#7DEE12",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页"
+  }
+}

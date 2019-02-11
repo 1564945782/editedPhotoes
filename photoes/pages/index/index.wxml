@@ -1,0 +1,16 @@
+
+<canvas canvas-id='shareCanvas' bindtap="" style="background: {{canvasBackGround}}">
+  <text bindtap="changImg">切换图片</text>
+  <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}"  style="background: {{item.color}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" color='{{item.color}}' hidden='{true}'/>
+    
+  </label>
+</radio-group>
+</canvas>
+<view class='author'>
+  <label for='imgInput'>author:</label>
+  <input value='' placeholder='如：作者：leaf' bindinput="author" id='imgInput'></input>
+</view>
+<button bindtap='seen'>预览</button>
+<button bindtap='save'>保存</button>
